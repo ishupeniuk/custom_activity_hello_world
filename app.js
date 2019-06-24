@@ -15,11 +15,11 @@ var app = express();
 // Register configs for the environments where the app functions
 // , these can be stored in a separate file using a module like config
 var APIKeys = {
-    appId           : '__insert_your_app_id__',
-    clientId        : '__insert_your_app_client_id__',
-    clientSecret    : '__insert_your_app_client_secret__',
+    appId           : 'f4a1923b-328c-40a5-ae6d-0a0108231d98',
+    clientId        : 'phd2tc1yb2d7mtuizyipf7f0',
+    clientSecret    : 'gozccv8oVoDbeGHWVQ4oooJ4',
     appSignature    : '__insert_your_app_signature__',
-    authUrl         : 'https://auth.exacttargetapis.com/v1/requestToken?legacy=1'
+    authUrl         : 'https://mcf-6hb28c7n-n3rn0y5ykd89nf1.auth.marketingcloudapis.com/'
 };
 
 // Simple custom middleware
